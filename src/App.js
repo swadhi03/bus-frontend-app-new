@@ -8,9 +8,13 @@ import ViewBus from './components/ViewBus';
 function App() {
   return (
     <div>
-      <AddBus/>
-      <SearchBus/>
-      <ViewBus/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<AddBus/>}/>
+          <Route path='/search' element={<SearchBus/>}/>
+          <Route path='/view' element={<ViewBus/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

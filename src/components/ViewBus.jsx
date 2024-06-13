@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import Navbar from './Navbar'
 
 const ViewBus = () => {
     const [data,changeData]=useState([])
@@ -15,6 +16,7 @@ const ViewBus = () => {
     return (
         <div>
             <div className="container">
+                <Navbar/>
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <table class="table">
