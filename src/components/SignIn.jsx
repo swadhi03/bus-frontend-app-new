@@ -46,7 +46,7 @@ const SignIn = () => {
                             <button className="btn btn-success" onClick={readValue}>Sign In</button>
                         </div>
                     </div>
-                    <a href="/signup">newuser Click Here</a>
+                    <a href="/">newuser Click Here</a>
                 </div>
             </div>
         </div>

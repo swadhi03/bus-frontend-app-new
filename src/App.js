@@ -16,7 +16,7 @@ function App() {
           <Route path='/add' element={<AddBus />} />
           <Route path='/search' element={<SearchBus />} />
           <Route path='/view' element={<ViewBus />} />
-          <Route path='/sigin' element={<SignIn />} />
+          <Route path='/signin' element={<SignIn />} />
         </Routes>
       </BrowserRouter>
     </div>
